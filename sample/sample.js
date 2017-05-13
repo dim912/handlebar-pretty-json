@@ -1,4 +1,5 @@
 var prettyJson = require('../src/index')
+//var prettyJson = require('handlebar-prettyjson')
 var handlebars = require('handlebars')
 var fs = require('fs');
 

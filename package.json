@@ -32,7 +32,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.3.0",
-    "handlebar": "^1.0.0",
     "fs": "0.0.1-security"
+  },
+  "dependencies": {
+    "handlebar": "^1.0.0"
   }
 }
