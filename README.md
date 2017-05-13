@@ -1,2 +1,2 @@
 # handlebar-pretty-json
-handlebar helper for prettifying json
+handlebar helper for prettifying jsonn

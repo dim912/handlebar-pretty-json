@@ -1,0 +1,34 @@
+{
+  "name": "handlebar-prettyjson",
+  "version": "1.0.0",
+  "description": "handlebar helper for prettifying json",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "samples": "node sample/sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dim912/handlebar-pretty-json.git"
+  },
+  "keywords": [
+    "handlebar",
+    "prettyjson",
+    "prettifying"
+  ],
+  "author": "Dimuthu Senanayaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dim912/handlebar-pretty-json/issues"
+  },
+  "homepage": "https://github.com/dim912/handlebar-pretty-json#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "handlebar": "^1.0.0",
+    "fs": "0.0.1-security"
+  }
+}
