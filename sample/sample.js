@@ -1,6 +1,6 @@
-var prettyJson = require('../src/index')
-//var prettyJson = require('handlebar-prettyjson')
+//var prettyJson = require('../src/index')
 var handlebars = require('handlebars')
+var prettyJson = require('handlebar-prettyjson')
 var fs = require('fs');
 
 //json data to be print on html

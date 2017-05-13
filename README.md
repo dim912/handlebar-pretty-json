@@ -29,8 +29,12 @@ var html = handlebars.compile(template)({
 ```
 
 ### Complete Sample
+
+##### how to use 'handlebar-prettyjson'
 https://github.com/dim912/handlebar-pretty-json/blob/master/sample/sample.js
 
+##### hbs template
+https://github.com/dim912/handlebar-pretty-json/blob/master/sample/index.hbs
 
 ### Result
 
