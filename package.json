@@ -1,7 +1,7 @@
 {
   "name": "handlebar-prettyjson",
   "version": "1.0.0",
-  "description": "handlebar helper for prettifying json",
+  "description": "handlebar helper for printing prettyfied json",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,8 +15,12 @@
     "url": "git+https://github.com/dim912/handlebar-pretty-json.git"
   },
   "keywords": [
+    "handlebars-prettyjson",
+    "prettyjson-handlebar",
     "handlebar",
     "prettyjson",
+    "handlebar-pretty-json",
+    "handlebas-pretty-json",
     "prettifying"
   ],
   "author": "Dimuthu Senanayaka",
