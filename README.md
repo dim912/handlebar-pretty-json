@@ -24,12 +24,13 @@ var html = handlebars.compile(template)({
 //use 'prettyJson' helper like below in hbs template file
 {{prettyJson jsonDataToPrint}}
 
-//For the complete sample
-//https://github.com/dim912/handlebar-pretty-json/blob/master/sample/sample.js
-
-
 ```
-Result
+
+### Complete Sample
+https://github.com/dim912/handlebar-pretty-json/blob/master/sample/sample.js
+
+
+### Result
 
 ![alt text](https://github.com/dim912/handlebar-pretty-json/blob/master/sample/result.JPG "Result on html page")
 
