@@ -34,7 +34,7 @@ https://github.com/dim912/handlebar-pretty-json/blob/master/sample/sample.js
 
 ### Result
 
-![alt text](https://github.com/dim912/handlebar-pretty-json/blob/master/sample/result.JPG "Result on html page")
+https://github.com/dim912/handlebar-pretty-json/blob/master/sample/result.JPG
 
 
 

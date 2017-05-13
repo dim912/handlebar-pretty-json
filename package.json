@@ -1,6 +1,6 @@
 {
   "name": "handlebar-prettyjson",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "handlebar helper for printing prettyfied json",
   "main": "index.js",
   "directories": {
