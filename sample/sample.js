@@ -1,11 +1,27 @@
-//var prettyJson = require('../src/index')
+var prettyJson = require('../src/index')
 var handlebars = require('handlebars')
-var prettyJson = require('handlebar-prettyjson')
+//var prettyJson = require('handlebars-prettyjson')
 var fs = require('fs');
 
 //json data to be print on html
-var jsonData = [{ name: 'Earth', order: 3, stats: { life: true, mass: 5.9736 * Math.pow(10, 24) } }, { name: 'Saturn', order: 6, stats: { life: null, mass: 568.46 * Math.pow(10, 24) } }];
-
+var jsonData = `
+{
+        "id": 2,
+        "name": "An ice sculpture",
+        "price": 12.50,
+        "warranty" : true,
+        "tags": ["cold", "ice"],
+        "otherDetails": {
+            "length": 7.0,
+            "width": 12.0,
+            "height": 9.5,
+            "warehouseLocation": {
+            "latitude": -78.75,
+            "longitude": 20.4
+        }
+        }
+    }
+`
 //initialized pretty json
 prettyJson(handlebars)
 

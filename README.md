@@ -5,7 +5,7 @@ handlebar helper for prettifying json
 
 ```javascript
 var handlebars = require('handlebars')
-var prettyJson = require('handlebar-prettyjson')
+var prettyJson = require('handlebars-prettyjson')
 
 //initialize pretty json
 prettyJson(handlebars)
