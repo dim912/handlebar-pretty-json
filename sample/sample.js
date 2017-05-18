@@ -1,6 +1,6 @@
-var prettyJson = require('../src/index')
+var jsonBeauty = require('../src/index')
 var handlebars = require('handlebars')
-//var prettyJson = require('handlebars-prettyjson')
+//var jsonBeauty = require('handlebars-json-beauty')
 var fs = require('fs');
 
 //json data to be print on html
@@ -23,7 +23,7 @@ var jsonData = `
     }
 `
 //initialized pretty json
-prettyJson(handlebars)
+jsonBeauty(handlebars)
 
 // read the html template -> compile -> write html
 fs.readFile('./sample/index.hbs', function (err, data) {
@@ -31,7 +31,7 @@ fs.readFile('./sample/index.hbs', function (err, data) {
 
     var template = data.toString();
 
-    //compile json as usual. At the hbs template use 'prettyJson' helper as anyother helper to print json(refer index.hbs example)
+    //compile json as usual. At the hbs template use 'jsonBeauty' helper as anyother helper to print json(refer index.hbs example)
     var html = handlebars.compile(template)({
         jsonDataToPrint: jsonData
     });

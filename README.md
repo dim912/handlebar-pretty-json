@@ -1,18 +1,18 @@
-# handlebar-pretty-json
-handlebar helper for prettifying json
+# handlebars-json-beauty
+handlebar helper for printing json colorfully
 
 ### Quick
 
 ```javascript
 var handlebars = require('handlebars')
-var prettyJson = require('handlebars-prettyjson')
+var jsonBeauty = require('handlebars-json-beauty')
 
-//initialize pretty json
-prettyJson(handlebars)
+//initialize json beauty
+jsonBeauty(handlebars)
 
-//If applying css is not needed =>  pass second argument as true as belowo. 
-//Later You can wirte your own css on hbs template file.
-//prettyJson(handlebars,true)
+//If your own css to be applied =>  pass second argument as true as below. 
+//Later You can wirte your own css on hbs template.
+//jsonBeauty(handlebars,true)
 
 //Example json data to be print on html
 var jsonData = [{ name: 'Earth', order: 3, stats: { life: true, mass: 5.9736 * Math.pow(10, 24) } },
@@ -23,14 +23,14 @@ var html = handlebars.compile(template)({
     jsonDataToPrint: jsonData
 });
 
-//use 'prettyJson' helper like below in hbs template file
-{{prettyJson jsonDataToPrint}}
+//use 'jsonBeauty' helper like below in hbs template file
+{{jsonBeauty jsonDataToPrint}}
 
 ```
 
 ### Complete Sample
 
-##### how to use 'handlebar-prettyjson'
+##### how to use 'handlebar-jsonBeauty'
 https://github.com/dim912/handlebar-pretty-json/blob/master/sample/sample.js
 
 ##### hbs template

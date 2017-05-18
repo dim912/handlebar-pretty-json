@@ -1,6 +1,6 @@
 {
-  "name": "handlebars-prettyjson",
-  "version": "1.0.6",
+  "name": "handlebars-json-beauty",
+  "version": "1.0.0",
   "description": "handlebars helper for printing prettyfied json",
   "main": "./src/index.js",
   "directories": {
@@ -22,6 +22,10 @@
     "prettyjson-handlebar",
     "prettifying-handlebar",
     "handlebar",
+    "handlebar-json",
+    "handlebars-json-print",
+    "handlebarjson",
+    "beauty",
     "json",
     "print",
     "prettyjson",

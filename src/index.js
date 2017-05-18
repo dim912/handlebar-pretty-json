@@ -69,6 +69,6 @@ function formatter(obj) {
 
 function prettifyJson(handleBarObj, noDefaultCss) {
     noDefCss = noDefaultCss
-    handleBarObj.registerHelper('prettyJson', formatter)
+    handleBarObj.registerHelper('jsonBeauty', formatter)
 }
 module.exports = prettifyJson
