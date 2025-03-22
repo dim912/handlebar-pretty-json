@@ -53,7 +53,6 @@ function formatter(obj) {
         try {
             var parsed = JSON.stringify(JSON.parse(unformatedJson), null, 4)
             var formatedJson = jsonHighlight(parsed)
-            console.log(formatedJson)
             var toRprot = '<pre>' + formatedJson + '<\/pre>'
             toRprot = noDefCss ? toRprot : toRprot + defaultCss;
             return new handlebars.SafeString(toRprot)
